@@ -1,0 +1,77 @@
+<!-- HOMEPAGE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sacSHPE | Contact™</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <!-- Style the success/error message -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+    <br /><br /><br />
+
+    <div id="form-messages">
+    </div>
+    
+    <div class="container">
+      <h1>Contact Us!</h1>
+      <p class="lead">Let us know how we are doing, or for any suggestions you'd like to be heard at sacSHPE.</p>
+      <hr class="featurette-divider">
+    </div>
+
+    <div class="container">
+      <form id="ajax-contact" method="post" action="mailer.php">
+        <div class="form-group col-sm-8">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Required" id="name" name="name" required><br>
+          </div>
+          <div class="field">
+            <label>Email *</label><br>
+            <input type="email" class="form-control" placeholder="Required" id="email" name="email" required><br>
+          </div>
+          <div class="field">
+            <label>Message *</label>
+            <textarea class="form-control" placeholder="Required" id="message" name="message" required></textarea><br>
+          </div>
+          
+          <div class="field">
+            <button type="submit" class="btn btn-submit btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+      $.get("../navigation/nav.html", function(data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+    <script >
+        $.get("../navigation/mailFootNav.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+    <!-- Javascript for Validating Form Input (MUST BE AFTER JQUERY)-->
+    <script src="app.js"></script>
+  </body>
+</html>

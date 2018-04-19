@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sacSHPE | OrgSync</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+    <br><br><br>
+
+    <div class="container-fluid">
+        <div class="col-md-8">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h1>Sac State OrgSync Registration <small>| Registering through OrgSync is necessary for sacSHPE to be properly documented for funding and events at Sac State.</small></h1>
+                </div>
+                <div class="panel-body">
+                    <p><em>Step 1:</em> Login to your Sac State OrgSync account <a href="//orgsync.com/login/sacramento-state" target="_blank" class="btn btn-success btn-sm" role="button">OrgSync Login</a></p>
+                    <p><em>Step 2:</em> Search for <em>'SHPE'</em> and choose our club profile (or click:) <a href="//orgsync.com/2569/chapter" target="_blank" class="btn btn-primary btn-sm" role="button">sacSHPE Profile</a></p>
+                    <p><em>Step 3:</em> Click on <em>'Join Now'</em> </p>
+                    <p class="tab"><img src="../img/orgsync/sacshpe_orgsync_1.png" style="height: 250px"></p>
+                    <p><br><strong>...And you're good! 👌🏽</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+        $.get("../navigation/nav.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script >
+        $.get("../navigation/mailFootNav.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+</html>

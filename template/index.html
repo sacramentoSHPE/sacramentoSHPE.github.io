@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NAME</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+        $.get("../navigation/nav.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script >
+        $.get("../navigation/mailFootNav.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+</html>

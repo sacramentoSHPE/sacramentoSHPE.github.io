@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sacSHPE | ¿Who Are We?</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .carousel-content-photo-credits {
+            position: absolute;
+            bottom: 1%;
+            left: 1%;
+            z-index: 20;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+    <br>
+	<div id="this-carousel-id" class="carousel slide" style="max-height: 70%">
+		<div class="carousel-inner">
+			<div class="item active">
+                <img src="../img/who/img1.jpg">
+                <div class="carousel-content-photo-credits">
+                    <small>Photo Credit: Augustine Orozco</small>
+                </div>
+			</div>
+			<div class="item">
+			  <img src="../img/who/img2.jpg">
+			</div>
+			<div class="item">
+			  <img src="../img/who/img3.jpg">
+			</div>
+		</div>
+	</div>    
+
+    <div class="container">
+        <div class="row">
+            <h2>What is SHPE?</h2>
+            <hr class="featurette-divider">
+        </div>
+        <div class="col-md-5">
+            <h2>Our Mission</h2>
+                <p>SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support & development.</p>
+            <hr class="featurette-divider">
+            <h2>Our Vision</h2>
+                <p>SHPE's vision is a world where Hispanics are highly valued and influential as leading innovators, scientists, mathematicians and engineers.</p>
+            <hr class="featurette-divider">
+            <h2>Our Purpose</h2>
+                <p>
+                    <ul>
+                        <li>To promote Professional Development among our members in the fields of Science, Technology, Engineering & Mathematics (STEM)</li>
+                        <li>To reveal members' full potential and to provide opportunities to develop their leadership skills</li>
+                        <li>To achieve Acaedmic excellence and retention among members</li>
+                        <li>To unify and sustain the chapter through recruitment, retainment, fundraising & networking</li>
+                        <li>To inspire Hispanic youth to pursue higher education through awareness, access & support in STEM</li>
+                        <li>To reciprocate the abundant support from the scholastic, local & Hispanic communities</li>
+                    </ul>
+                </p>
+        </div>
+        <div class="col-md-7">
+            <h2>Chapter History</h2>
+                <p>Over the past few years, the CSU Sacramento SHPE student chapter has transformed itself from a small, relatively unknown, chapter into a competitive and well-recognized chapter. During the 2012-2013 Scholastic year, the chapter implemented a new bylaw system that brought a higher level of activity to the chapter. These improvements were reflected in both National Reporting Program reports submitted in 2012 – 2013, Fall 2014, and Spring 2015; reports scored over 800 out of 900 points. All of the growth and accomplishments have been acknowledged at SHPE National Conferences where CSUS-SHPE was awarded with Large Chapter of the year in 2015, Regional Outstanding Chapter Awards in 2012, 2013, 2014, 2015, and 2016, and also first 1st place for the 1st inaugural Hackathon at the SHPE Conference.</p>
+                <p>The newly developed bylaws have also allowed for the creation of well-rounded high performing students. By focusing on promoting professional development and leadership skills among our members, we provide various avenues for members to reveal their full potential. The chapter strives to achieve academic excellence and retention among our members. We aim to inspire Hispanic youth to pursue higher education through awareness, access, and support in STEM. Our chapter also reciprocates the abundant support from the Scholastic, local, and Hispanic communities.</p>
+                <p>We implemented committees in 2011 that allowed the officer board to increase the membership participation, and focus the efforts of the chapter. The membership has been actively involved in yearlong committees dedicated to Academic Development, Events, Fundraising, Outreach, Professional Development, Web Development, Historian and Jr Chapter. Today, the committee system is still functioning effectively after five years. Recently new committees were introduced for our new “freshmen” Members. The committees also provide a way to reward our members through “skill set” credit. The “skill set” system measures member’s activity in the chapter through the five pillars of SHPE. Beyond our event and committees SHPE members continue to gain hands on experience through just recently TinyHouse and Solar Regatta projects. TinyHouse being a two year event that took place October 2016 and Solar Regatta, group led project of senior members who have taken the project as part of their senior project with the help of younger members.</p>
+                <p>Building upon our accomplishments and recognitions received from SHPE National, the CSU Sacramento SHPE chapter looks forward to another semester of continued growth and development.</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+        $.get("../navigation/nav.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!-- Carousel Code -->
+    <script>
+		$(document).ready(function(){
+			$('.carousel').carousel({
+				interval: 2570
+			});
+		});
+    </script>
+    <script >
+        $.get("../navigation/mailFootNav.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!-- HOMEPAGE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sacSHPE | Sponsor Us!</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <!-- Style the success/error message -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+    <br /><br /><br />
+
+    <div id="form-messages"> 
+    </div>
+    
+    <!-- ENABLE TO ADD NON-OPERATIONAL WARNING
+    <div class="container-fluid">
+        <div class="panel panel-danger">
+          <div class="panel-heading"><h4>This page is NON-OPERATIONAL until furthur notice, please email <a href="mailto:sacshpe.president@gmail.com">sacshpe.president@gmail.com</a> for any Sponsorship inquiries.</h4></div>
+        </div>
+    </div>-->
+
+    <div class="container">
+      <h1>Become a Sponsor</h1>
+      <p class="lead">Our sponsors believe in SHPE and know that we are true to our cause. Their contributions provide students with life-changing experiences that they would not have been exposed to otherwise.</p>
+    </div>
+
+    <div class="container">
+      <form id="ajax-form" method="post" action="mailer.php">
+        <div class="form-group col-sm-8">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Required" id="name" name="name" required><br>
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Required" id="email" name="email" required><br>
+          </div>
+          <div class="field">
+            <label>Organization Name</label>
+            <input type="text" class="form-control" placeholder="Required" id="org" name="org" required><br>
+          </div>
+          <div>
+            <label>Comments</label>
+            <textarea class="form-control" placeholder="Optional" id="comment" name="comment"></textarea><br>
+          </div>
+
+          <div class="field">
+            <button type="submit" class="btn btn-submit btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+      $.get("../navigation/nav.html", function(data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+    <!-- Javascript for Validating Form Input (MUST BE AFTER JQUERY)-->
+    <script src="app.js"></script>
+  </body>
+</html>
