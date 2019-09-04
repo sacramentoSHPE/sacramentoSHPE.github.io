@@ -4612,7 +4612,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: 75px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px
@@ -4632,6 +4632,27 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
   }
 }
 
+.navbar-brand-logo {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px
+}
+
+.navbar-brand-logo:focus, .navbar-brand-logo:hover {
+  text-decoration: none
+}
+
+.navbar-brand-logo>img {
+  display: block
+}
+
+@media (min-width:768px) {
+  .navbar>.container .navbar-brand-logo, .navbar>.container-fluid .navbar-brand-logo {
+    margin-left: -15px
+  }
+}
 .navbar-toggle {
   position: relative;
   float: right;
@@ -4879,6 +4900,15 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
   background-color: transparent
 }
 
+.navbar-default .navbar-brand-logo {
+  color: #777
+}
+
+.navbar-default .navbar-brand-logo:focus, .navbar-default .navbar-brand-logo:hover {
+  color: #5e5e5e;
+  background-color: transparent
+}
+
 .navbar-default .navbar-text {
   color: #777
 }
@@ -4974,6 +5004,15 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: #fff;
+  background-color: transparent
+}
+
+.navbar-inverse .navbar-brand-logo {
+  color: #9d9d9d
+}
+
+.navbar-inverse .navbar-brand-logo:focus, .navbar-inverse .navbar-brand-logo:hover {
   color: #fff;
   background-color: transparent
 }
