@@ -3720,7 +3720,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-  padding: 10px 16px;
+  padding: 10px 10px;
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px
