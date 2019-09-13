@@ -6215,6 +6215,10 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
   padding-bottom: 75%
 }
 
+.embed-responsive-1by1 {
+  padding-bottom: 100%
+}
+
 .well {
   min-height: 20px;
   padding: 19px;
