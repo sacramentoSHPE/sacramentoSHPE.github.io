@@ -33,7 +33,7 @@
           <div class="embed-responsive embed-responsive-4by3">
             <object data="./letters/Fall2019/vol1.pdf" type="application/pdf"></object>
           </div>
-        </div>  
+        </div>
       </div>
     </div>
 
@@ -278,24 +278,23 @@
       </div>
       -->
 
-
-      <!-- Footer -->
-      <div id="footer-placeholder">
-      </div>
-      <!-- jQuery -->
-      <script src="../js/jquery.js"></script>
-      <!-- Bootstrap Core JavaScript -->
-      <script src="../js/bootstrap.min.js"></script>
-      <script>
-        $.get("../navigation/nav.html", function(data) {
-          $("#nav-placeholder").replaceWith(data);
-        });
-      </script>
-      <script>
-        $.get("../navigation/mailFootNav.html", function(data) {
-          $("#footer-placeholder").replaceWith(data);
-        });
-      </script>
+  </div>
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <!-- jQuery -->
+  <script src="../js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../js/bootstrap.min.js"></script>
+  <script>
+    $.get("../navigation/nav.html", function(data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("../navigation/mailFootNav.html", function(data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
 </body>
 
 </html>
