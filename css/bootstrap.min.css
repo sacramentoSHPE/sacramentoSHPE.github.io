@@ -6216,7 +6216,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .embed-responsive-1by1 {
-  padding-bottom: 100%
+  padding-bottom: 99%
 }
 
 .well {
