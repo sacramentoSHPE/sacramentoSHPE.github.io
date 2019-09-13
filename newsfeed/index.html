@@ -26,9 +26,8 @@
 
 <body>
   <!-- Navigation -->
-  <div id="nav-placeholder">
-  </div>
-  <br /><br /><br />
+  <div id="nav-placeholder"></div>
+  <br/><br/><br/>
   <div class="container">
     <div class="row">
       <h2>Fall 2019 Events</h2>
@@ -51,7 +50,7 @@
       </div>
     </div>
     <hr class="featurette-divider">
-    <div class="row" id="BBQ">
+    <div class="row" id="ECSBBQ">
       <div class="span12" style="text-align: center;">
         <h3>ECS Welcome Back BBQ</h3>
         <p>
@@ -63,23 +62,24 @@
         </p>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div id="footer-placeholder"></div>
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script>
-      $.get("../navigation/nav.html", function(data) {
-        $("#nav-placeholder").replaceWith(data);
-      });
-    </script>
-    <script>
-      $.get("../navigation/mailFootNav.html", function(data) {
-        $("#footer-placeholder").replaceWith(data);
-      });
-    </script>
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <!-- jQuery -->
+  <script src="../js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../js/bootstrap.min.js"></script>
+  <script>
+    $.get("../navigation/nav.html", function(data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("../navigation/mailFootNav.html", function(data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
 </body>
 
 </html>
