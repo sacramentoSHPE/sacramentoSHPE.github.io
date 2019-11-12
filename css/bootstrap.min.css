@@ -6189,6 +6189,10 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
   border-bottom-color: #ebccd1
 }
 
+.scroll{
+  overflow: auto
+  -webkit-overflow-scrolling:touch
+}
 .embed-responsive {
   position: relative;
   display: block;
