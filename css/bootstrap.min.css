@@ -6190,7 +6190,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .scroll{
-  overflow: auto;
+  overflow-y: scroll;
   -webkit-overflow-scrolling:touch;
 }
 .embed-responsive {
