@@ -6194,8 +6194,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
   display: block;
   height: 0;
   padding: 0;
-  overflow: auto;
-  -webkit-overflow-scrolling:touch
+  overflow: hidden
 }
 
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
