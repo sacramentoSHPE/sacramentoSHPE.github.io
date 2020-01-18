@@ -5,30 +5,39 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- .imgContainer {
-   height: 500px;
- }
 
    @media (min-width:376px) {
      .imgContainer {
+       height: 150px
+     }
+     .homeIMG{
        height: 250px
      }
    }
 
   @media (min-width:576px) {
     .imgContainer {
+      height: 100px
+    }
+    .homeIMG{
       height: 200px
     }
   }
 
   @media (min-width:768px) {
     .imgContainer {
+      height: 150px
+    }
+    .homeIMG{
       height: 250px
     }
   }
 
   @media (min-width:992px) {
     .imgContainer {
+      height: 250px
+    }
+    .homeIMG{
       height: 350px
     }
   }
@@ -37,13 +46,14 @@
     .imgContainer {
       height: 450px
     }
-  }
-
-  @media (min-width:1440) {
-    .imgContainer {
-      height: 500px
+    .homeIMG{
+      height: 550px
     }
   }
+
+
+
+
 
 
 
