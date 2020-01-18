@@ -5531,10 +5531,16 @@ a.badge-dark.focus, a.badge-dark:focus {
   background-color: #e9ecef;
   border-radius: .3rem
 }
+.jumbotronImg{
+  width: 300px;
+}
 
 @media (min-width:576px) {
   .jumbotron {
     padding: 4rem 2rem
+  }
+  .jumbotronImg{
+    width: 400px;
   }
 }
 
