@@ -7,8 +7,45 @@
 
  .imgContainer {
    height: 500px;
-
  }
+
+   @media (min-width:376px) {
+     .imgContainer {
+       height: 250px
+     }
+   }
+
+  @media (min-width:576px) {
+    .imgContainer {
+      height: 200px
+    }
+  }
+
+  @media (min-width:768px) {
+    .imgContainer {
+      height: 250px
+    }
+  }
+
+  @media (min-width:992px) {
+    .imgContainer {
+      height: 350px
+    }
+  }
+
+  @media (min-width:1200px) {
+    .imgContainer {
+      height: 450px
+    }
+  }
+
+  @media (min-width:1440) {
+    .imgContainer {
+      height: 500px
+    }
+  }
+
+
 
 
 :root {
