@@ -11,10 +11,10 @@
 
 @media (min-width:376px) {
   .imgContainer {
-    height: 350px
+    height: 300px
     }
   .homeIMG{
-    height: 350px;
+    height: 300px;
     border-radius: 8px;
     }
 }
