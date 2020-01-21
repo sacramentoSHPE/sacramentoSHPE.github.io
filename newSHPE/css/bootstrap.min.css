@@ -5,7 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+  .homeIMG{
+   height: 750px
+  }
 
   @media (min-width:376px) {
     .imgContainer {
@@ -51,9 +53,6 @@
       height: 450px
     }
   }
-
-
-
 
 
 
