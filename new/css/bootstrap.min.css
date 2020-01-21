@@ -11,7 +11,7 @@
   padding-top: 10px;
 }
 
-@media (min-width:176px) {
+@media (min-width:320px) {
   .homeIMG{
     width: 290px;
     border-radius: 8px;
@@ -25,7 +25,21 @@
   }
 }
 
-@media (min-width:376px) {
+@media (min-width:375px) {
+  .homeIMG{
+    width: 345px;
+    border-radius: 8px;
+    }
+  .mediaLogo{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+@media (min-width:414px) {
   .homeIMG{
     width: 385px;
     border-radius: 8px;
