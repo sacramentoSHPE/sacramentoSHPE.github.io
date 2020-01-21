@@ -5,7 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+.imgContainer{
+  padding-bottom: 10px;
+}
 
 .imgText{
   padding-top: 10px;
