@@ -10,7 +10,21 @@
 }
 
 
-@media (min-width:276px) {
+@media (min-width:176px) {
+  .homeIMG{
+    width: 290px;
+    border-radius: 8px;
+    }
+  .mediaLogo{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width:376px) {
   .homeIMG{
     width: 300px;
     border-radius: 8px;
