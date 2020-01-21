@@ -10,6 +10,7 @@
 }
 .homeIMG{
   border-radius: 8px;
+  height: 550px
 }
 
 @media (min-width:376px) {
