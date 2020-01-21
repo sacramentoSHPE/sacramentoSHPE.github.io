@@ -6,11 +6,11 @@
  */
 
 .imgText{
-  padding-top: 10px;"
+  padding-top: 10px;
 }
 .homeIMG{
   border-radius: 8px;
-  height: 550px
+  height: 550px;
 }
 
 @media (min-width:376px) {
