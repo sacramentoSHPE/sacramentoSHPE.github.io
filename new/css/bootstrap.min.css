@@ -5,14 +5,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+.imgContainer{
+  padding-bottom: 10px;
+}
 
 .imgText{
   padding-top: 10px;
 }
 
 @media (min-width:320px) {
-  .homeIMG{
+  .image{
     width: 290px;
     border-radius: 8px;
     }
@@ -26,7 +28,7 @@
 }
 
 @media (min-width:375px) {
-  .homeIMG{
+  .image{
     width: 345px;
     border-radius: 8px;
     }
@@ -40,7 +42,7 @@
 }
 
 @media (min-width:414px) {
-  .homeIMG{
+  .image{
     width: 385px;
     border-radius: 8px;
     }
@@ -54,7 +56,7 @@
 }
 
 @media (min-width:576px) {
-  .homeIMG{
+  .image{
     width: 330px;
     border-radius: 8px;
   }
@@ -67,7 +69,7 @@
 }
 
 @media (min-width:768px) {
-  .homeIMG{
+  .image{
     width: 450px;
     border-radius: 8px;
   }
@@ -80,7 +82,7 @@
 }
 
 @media (min-width:992px) {
-  .homeIMG{
+  .image{
     width: 610px;
     border-radius: 8px;
   }
@@ -93,7 +95,7 @@
 }
 
 @media (min-width:1200px) {
-  .homeIMG{
+  .image{
     width: 730px;
     height: 400px;
     border-radius: 8px;
@@ -108,7 +110,7 @@
 }
 
 @media (min-width:1440px) {
-  .homeIMG{
+  .image{
     width: 860px;
     height: 400px;
     border-radius: 8px;
