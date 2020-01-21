@@ -9,16 +9,13 @@
   padding-top: 10px;
 }
 
-.homeIMG{
-  border-radius: 8px;
-}
-
 @media (min-width:376px) {
   .imgContainer {
     height: 350px
     }
   .homeIMG{
-    height: 350px
+    height: 350px;
+    border-radius: 8px;
     }
 }
 
@@ -27,7 +24,8 @@
     height: 200px
   }
   .homeIMG{
-    height: 200px
+    height: 200px;
+    border-radius: 8px;
   }
 }
 
@@ -36,7 +34,8 @@
     height: 250px
   }
   .homeIMG{
-    height: 250px
+    height: 250px;
+    border-radius: 8px;
   }
 }
 
@@ -45,7 +44,8 @@
     height: 350px
   }
   .homeIMG{
-    height: 350px
+    height: 350px;
+    border-radius: 8px;
   }
 }
 
@@ -54,7 +54,8 @@
     height: 550px
   }
   .homeIMG{
-    height: 550px
+    height: 550px;
+    border-radius: 8px;
   }
 }
 
