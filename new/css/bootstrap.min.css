@@ -9,12 +9,12 @@
   padding-top: 10px;
 }
 
-@media (min-width:376px) {
+@media (min-width:276px) {
   .imgContainer {
-    height: 300px
+    height: 270px
     }
   .homeIMG{
-    height: 300px;
+    height: 270px;
     border-radius: 8px;
     }
 }
