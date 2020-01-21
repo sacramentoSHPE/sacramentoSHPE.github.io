@@ -10,51 +10,36 @@
 }
 
 @media (min-width:276px) {
-  .imgContainer {
-    height: 290px
-    }
   .homeIMG{
-    height: 290px;
+    width: 300px;
     border-radius: 8px;
     }
 }
 
 @media (min-width:576px) {
-  .imgContainer {
-    height: 200px
-  }
   .homeIMG{
-    height: 200px;
+    width: 330px;
     border-radius: 8px;
   }
 }
 
 @media (min-width:768px) {
-  .imgContainer {
-    height: 250px
-  }
   .homeIMG{
-    height: 250px;
+    width: 450px;
     border-radius: 8px;
   }
 }
 
 @media (min-width:992px) {
-  .imgContainer {
-    height: 350px
-  }
   .homeIMG{
-    height: 350px;
+    width: 610px;
     border-radius: 8px;
   }
 }
 
 @media (min-width:1200px) {
-  .imgContainer {
-    height: 550px
-  }
   .homeIMG{
-    height: 550px;
+    width: 730px;
     border-radius: 8px;
   }
 }
