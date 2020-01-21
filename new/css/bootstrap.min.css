@@ -95,7 +95,9 @@
 @media (min-width:1200px) {
   .homeIMG{
     width: 730px;
+    height: 400px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .mediaLogo{
     margin-bottom: 5px;
@@ -105,7 +107,20 @@
   }
 }
 
-
+@media (min-width:1440px) {
+  .homeIMG{
+    width: 860px;
+    height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .mediaLogo{
+    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
+    font-size: 14px;
+  }
+}
 
 
 
