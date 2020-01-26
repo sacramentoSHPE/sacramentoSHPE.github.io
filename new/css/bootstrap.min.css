@@ -15,7 +15,8 @@
 
 @media (min-width:320px) {
   .image{
-    max-width: 290px;
+    width: 290px;
+    height: 171px;
     border-radius: 8px;
     }
   .mediaLogo{
@@ -29,7 +30,8 @@
 
 @media (min-width:375px) {
   .image{
-    max-width: 345px;
+    width: 345px;
+    height: 194px;
     border-radius: 8px;
     }
   .mediaLogo{
@@ -44,6 +46,7 @@
 @media (min-width:414px) {
   .image{
     width: 385px;
+    height: 227px;
     border-radius: 8px;
     }
   .mediaLogo{
@@ -58,6 +61,7 @@
 @media (min-width:576px) {
   .image{
     width: 330px;
+    height: 194px;
     border-radius: 8px;
   }
   .mediaLogo{
@@ -71,6 +75,7 @@
 @media (min-width:768px) {
   .image{
     width: 450px;
+    height: 256px;
     border-radius: 8px;
   }
   .mediaLogo{
@@ -84,6 +89,7 @@
 @media (min-width:992px) {
   .image{
     width: 610px;
+    height: 359px;
     border-radius: 8px;
   }
   .mediaLogo{
@@ -124,7 +130,7 @@
   }
 }
 
-@media (max-width:1540px) {
+@media (max-width:1600px) {
   .image{
     max-width: 860px;
     max-height: 400px;
