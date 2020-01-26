@@ -5,6 +5,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+
+ /*!
+  * Calendar
+  */
+
+
+/*!
+ * Calendar
+ */
+
+
 .imgContainer{
   padding-top: 5px;
 }
@@ -15,7 +27,7 @@
 
 @media (min-width:320px) {
   .image{
-    width: 290px;
+    width: 100%;
     height: 171px;
     border-radius: 8px;
     }
@@ -30,7 +42,7 @@
 
 @media (min-width:375px) {
   .image{
-    width: 345px;
+    width: 100%;
     height: 194px;
     border-radius: 8px;
     }
@@ -45,7 +57,7 @@
 
 @media (min-width:414px) {
   .image{
-    width: 385px;
+    width: 100%;
     height: 227px;
     border-radius: 8px;
     }
@@ -56,11 +68,15 @@
     font-size: 11px;
     text-align: center;
   }
+  .responsive-calendar{
+    position: relative;
+  	overflow: hidden;
+  }
 }
 
 @media (min-width:576px) {
   .image{
-    width: 330px;
+    width: 100%;
     height: 194px;
     border-radius: 8px;
   }
@@ -74,7 +90,7 @@
 
 @media (min-width:768px) {
   .image{
-    width: 450px;
+    width: 100%;
     height: 256px;
     border-radius: 8px;
   }
@@ -88,7 +104,7 @@
 
 @media (min-width:992px) {
   .image{
-    width: 610px;
+    width: 100%;
     height: 359px;
     border-radius: 8px;
   }
@@ -102,7 +118,7 @@
 
 @media (min-width:1200px) {
   .image{
-    width: 730px;
+    width: 100%;
     height: 400px;
     border-radius: 8px;
     object-fit: cover;
@@ -117,7 +133,7 @@
 
 @media (min-width:1440px) {
   .image{
-    width: 860px;
+    width: 100%;
     height: 400px;
     border-radius: 8px;
     object-fit: cover;
@@ -132,7 +148,7 @@
 
 @media (max-width:1600px) {
   .image{
-    max-width: 860px;
+    max-width: 100%;
     max-height: 400px;
     border-radius: 8px;
     object-fit: cover;
@@ -5678,7 +5694,7 @@ a.badge-dark.focus, a.badge-dark:focus {
   border-radius: .3rem
 }
 .jumbotronImg{
-  width: 300px;
+  width: 100%;
 }
 
 @media (min-width:576px) {
