@@ -3662,7 +3662,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .dropdown-toggle {
-  white-space: nowrap
+  white-space: nowrap;
+  text-align: center;
 }
 
 .dropdown-toggle::after {
@@ -3875,7 +3876,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   clear: both;
   font-weight: 400;
   color: #212529;
-  text-align: inherit;
+  text-align: center;
   white-space: nowrap;
   background-color: transparent;
   border: 0
