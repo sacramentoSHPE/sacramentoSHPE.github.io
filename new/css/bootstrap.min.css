@@ -74,7 +74,10 @@
     height: 227px;
     border-radius: 8px;
     object-fit: cover;
-    }
+  }
+  .img-responsive{
+    height: 371px;
+  }
   .mediaLogo{
     margin-bottom: 5px;
     height: 40px;
