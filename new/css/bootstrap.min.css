@@ -98,6 +98,9 @@
     border-radius: 8px;
     object-fit: cover;
   }
+  .img-responsive{
+    height: 400px;
+  }
   .mediaLogo{
     margin-bottom: 5px;
     height: 50px;
