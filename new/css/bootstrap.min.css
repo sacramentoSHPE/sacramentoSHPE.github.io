@@ -5,6 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.img-responsive{
+  width: 100%;
+  height: 371px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
 .imgContainer{
   padding-top: 5px;
 }
@@ -18,6 +25,7 @@
     width: 100%;
     height: 171px;
     border-radius: 8px;
+    object-fit: cover;
     }
   .mediaLogo{
     margin-bottom: 5px;
@@ -33,6 +41,7 @@
     width: 100%;
     height: 171px;
     border-radius: 8px;
+    object-fit: cover;
     }
   .mediaLogo{
     margin-bottom: 5px;
@@ -48,6 +57,7 @@
     width: 100%;
     height: 194px;
     border-radius: 8px;
+    object-fit: cover;
     }
   .mediaLogo{
     margin-bottom: 5px;
@@ -63,6 +73,7 @@
     width: 100%;
     height: 227px;
     border-radius: 8px;
+    object-fit: cover;
     }
   .mediaLogo{
     margin-bottom: 5px;
@@ -82,6 +93,7 @@
     width: 100%;
     height: 194px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .mediaLogo{
     margin-bottom: 5px;
@@ -96,6 +108,7 @@
     width: 100%;
     height: 256px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .mediaLogo{
     margin-bottom: 5px;
@@ -110,6 +123,7 @@
     width: 100%;
     height: 359px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .mediaLogo{
     margin-bottom: 5px;
