@@ -45,7 +45,7 @@
     height: 171px;
     border-radius: 8px;
     object-fit: cover;
-    }
+  }
   .mediaLogo{
     margin-bottom: 5px;
     height: 30px;
@@ -79,7 +79,9 @@
     object-fit: cover;
   }
   .img-responsive{
-    height: 371px;
+    height: 500px;
+    padding-left:10px;
+    padding-right:10px;
   }
   .mediaLogo{
     margin-bottom: 5px;
@@ -103,6 +105,8 @@
   }
   .img-responsive{
     height: 400px;
+    padding-left:0px;
+    padding-right:0px;
   }
   .mediaLogo{
     margin-bottom: 5px;
@@ -119,6 +123,9 @@
     border-radius: 8px;
     object-fit: cover;
   }
+  .img-responsive{
+    height: 500px;
+  }
   .mediaLogo{
     margin-bottom: 5px;
     height: 50px;
@@ -133,6 +140,9 @@
     height: 359px;
     border-radius: 8px;
     object-fit: cover;
+  }
+  .img-responsive{
+    height: 400px;
   }
   .mediaLogo{
     margin-bottom: 5px;
