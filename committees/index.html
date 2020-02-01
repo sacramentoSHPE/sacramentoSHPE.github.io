@@ -2,112 +2,267 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>sacSHPE | Committees</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts -->
-    <link href="../css/font.css" rel="stylesheet" type="text/css">
+  <title>Committees</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <div id="nav-placeholder">
-    </div>
-    <br /><br /><br />
+  <div class="jumbotron text-center" style="margin-bottom:0; padding-bottom: 32px; padding-top: 32px;">
+    <a href="../index.html"><img class="jumbotronImg" src="../img/banner.png" alt="SHPE Logo"></a>
+  </div>
 
-    <div class="container">
-    	<h2>Our Committees</h2>
-    	<div class="row">
-        	<div class="col-sm-6">
-    		<h3>Academics | <small>TBD | <a href="../officers/#academics">Director of Academics</a></small></h3>
-    			<p>The academic committee is a place where you will find the necessary resources to be successful. We will discuss many study techniques and ways to be more productive and efficient. As apart of the committee you will learn how to be a good student and will be encouraged to help your fellow SHPE members. You will be instrumental in the success of your SHPE chapter and your academic career. I will do my best to provide the help you need and will listen to any ideas you may have. We will look for sholarships, help bring a panel for our graduate workshop, and help organise an academic competition among other great events and opportunities. Join your SHPE academic committee and inspire others, motivate your peers and thrive as a student and become a professional. </p>
-    			<a href="//goo.gl/Yw56Si" target="_blank" class="btn btn-primary btn-sm">Join Academics!</a>
-			</div>
-			<div class="col-sm-6">
-    		<h3>Events | <small>TBD | <a href="../officers/#events">Director of Events</a></small></h3>
-    			<p>My committee’s job is to help me out in planning SHPE’s events such as the, Corn Maze, Potluck, and Gala. There may be a few more tossed in here and there. I will be briefing the group for each of my events and of course you will have input in what transpires. I hope to see you guys at my committee or at my events or just even around campus.</p>
-    			<a href="//goo.gl/rHz22e" target="_blank" class="btn btn-primary btn-sm">Signups</a>
-			</div>
-    	</div>
-    	<div class="row">
-        	<div class="col-sm-6">
-    		<h3>Fundraising | <small>TBD | <a href="../officers/#fundraising">Director of Fundraising</a></small></h3>
-    			<p>Fundraising is about getting as much funds as we can to sustain our chapter. Therefore, the job of this committee is to come up with fundraising strategies and organize fundraising events. My plan for the following semester is to host a couple of fundraisers as well as other activities that will get us some money. In my committee you will have the opportunity to develop leadership and communication skills. My goal is to give members what they need to grow professionally.
-    			<br>
-    			We will be in charge of planning, organizing, and advertising fundraising events. So if you feel like you want to be part of this, please join my committee. And if you have other ideas on how to raise money please share those with me. I’d love to hear them.</p>
-    			<a href="//goo.gl/forms/aE5hHxoeaq4nC4Ul2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
-			</div>
-			<div class="col-sm-6">
-    		<h3>Futures | <small>TBD | <a href="../officers/#vp">Vice President</a></small></h3>
-    			<p>The Futures Committee was developed in 2016 and has since helped incoming college freshmen establish time management and communication skills and professionalism. Incoming freshmen have learned to step out of their comfort zone, meet new people from various backgrounds, show off their creativity and ultimately helps them develop a better understanding of what it takes to be an involved and academically successful college student. 
+  <!--Navigation Start-->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <!--<a class="navbar-brand" href="./index.html">Home</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="nav-link btn btn-outline-success d-sm-none" href="../join" role="button">Join SHPE</a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link btn" href="../index.html">Home</a>
+          </li>
+          <!--About SHPE-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <a class="dropdown-item" href="../who">What is SHPE?</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../officers">Officers</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../committees">Committees</a>
+            </div>
+          </li>
+
+          <!--Events-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <a class="dropdown-item" href="../calendar">Calendar</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../events">Events</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../slides">Slides</a>
+            </div>
+          </li>
+
+          <!--Resources-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+              <a class="dropdown-item" href="//docs.google.com/document/u/1/d/e/2PACX-1vQjCk3omec9F0zXFAvbWwXNNn_kQ6B-hy-aKupr2AvdtX9PsdkjSWXe0gNTjDSPZFrhbZ_XkRaMQSL4/pub">Officer Bylaws</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="//www.csus.edu/college/engineering-computer-science/student-success/ecs-tutoring.html">ECS Tutoring</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="//www.csus.edu/college/engineering-computer-science/ecs-scholarships/">ECS Scholarships</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="//shpe.org">SHPE National Website</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="//shpeconnect.org/">SHPEConnect</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-success d-none d-sm-block" href="./join">Join SHPE</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="navlink" href="//athena.ecs.csus.edu/~shpe/shpeNewDb/portal/html/"><button class="btn btn-primary btn-margin-right">Login</button></a>
+          </li>-->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Navigation End-->
+
+
+  <div class="container" style="margin-top:30px; ">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>Committees</h2>
+        <h2>Under Construction - Disregard</h2>
+        <hr>
+        <div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Academics | <small>TBD | <a href="../officers/#academics">Director of Academics</a></small></h3>
+              <p>The academic committee is a place where you will find the necessary resources to be successful. We will discuss many study techniques and ways to be more productive and efficient. As apart of the committee you will learn how to be a
+                good student and will be encouraged to help your fellow SHPE members. You will be instrumental in the success of your SHPE chapter and your academic career. I will do my best to provide the help you need and will listen to any ideas
+                you may have. We will look for sholarships, help bring a panel for our graduate workshop, and help organise an academic competition among other great events and opportunities. Join your SHPE academic committee and inspire others,
+                motivate your peers and thrive as a student and become a professional. </p>
+              <a href="//goo.gl/Yw56Si" target="_blank" class="btn btn-primary btn-sm">Join Academics!</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Events | <small>TBD | <a href="../officers/#events">Director of Events</a></small></h3>
+              <p>My committee’s job is to help me out in planning SHPE’s events such as the, Corn Maze, Potluck, and Gala. There may be a few more tossed in here and there. I will be briefing the group for each of my events and of course you will
+                have input in what transpires. I hope to see you guys at my committee or at my events or just even around campus.</p>
+              <a href="//goo.gl/rHz22e" target="_blank" class="btn btn-primary btn-sm">Signups</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Fundraising | <small>TBD | <a href="../officers/#fundraising">Director of Fundraising</a></small></h3>
+              <p>Fundraising is about getting as much funds as we can to sustain our chapter. Therefore, the job of this committee is to come up with fundraising strategies and organize fundraising events. My plan for the following semester is to
+                host a couple of fundraisers as well as other activities that will get us some money. In my committee you will have the opportunity to develop leadership and communication skills. My goal is to give members what they need to grow
+                professionally.
+                <br>
+                We will be in charge of planning, organizing, and advertising fundraising events. So if you feel like you want to be part of this, please join my committee. And if you have other ideas on how to raise money please share those with me.
+                I’d love to hear them.</p>
+              <a href="//goo.gl/forms/aE5hHxoeaq4nC4Ul2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Futures | <small>TBD | <a href="../officers/#vp">Vice President</a></small></h3>
+              <p>The Futures Committee was developed in 2016 and has since helped incoming college freshmen establish time management and communication skills and professionalism. Incoming freshmen have learned to step out of their comfort zone, meet
+                new people from various backgrounds, show off their creativity and ultimately helps them develop a better understanding of what it takes to be an involved and academically successful college student.
                 <br />
                 The Futures committee hosts their very own events twice every year. So if you are looking for a way to showcase your creativity and develop yourself as a STEM leader, join the Futures Committee.</p>
-			</div>
-    	</div>
-    	<div class="row">
-        	<div class="col-sm-6">
-    		<h3>Outreach | <small>TBD | <a href="../officers/#outreach">Director of Outreach</a></small></h3>
-    			<p>Welcome to Outreach! The goal of Outreach is to spread the knowledge of the STEM field to the youth of Sacramento. I oversee Thriving Youth Program and Noche de Ciencas. Within the Thriving Youth program, we hold the monthly STEM Nights. During the STEM Night’s we do mini science projects with the after-school program there. Noche de Ciencas is similar to the STEM Nights but it is an event held in an elementary school and bigger than the STEM Nights. Both events are focused to inform the Sacramento youth the STEM is not a scary field to be involved in. What my committee does is they help me plan these two events. We come up with the projects to Noche de Ciencas and help organize the day. You are always welcome to pitch ideas and events pertaining to STEM that we can be involved in. I also will try to inform you on any community service event that is around Sac State involving STEM, so that you can get those community service hours done as soon as possible. If you like getting involved in the community and helping the youth in spreading the cheer of STEM come join my Outreach Committee.</p>
-			</div>
-			<div class="col-sm-6">
-    		<h3>Professional Development | <small>TBD | <a href="../officers/#professionaldevelopment">Director of Professional Development</a></small></h3>
-    			<p>Naturally as an engineering student people ask the question “do you have a life?” and say “all I do is see you guys study!”. Although this may be slightly true it is not wrong to say that we also do have outside lives separate from our studies. When I’m not busy studying or working I enjoy activities such as running, paintballing, snowboarding, and even flying planes! I once had a dream of becoming a pilot; a soon to be reality. I once had  a dream of completing a 100 mile endurance run; something that I have accomplished and intend to accomplish again. I once had a dream that I would be able to complete college with an engineering degree; here I am as a first year college student and junior mechanical engineering in the making. Although I may seem to do these things for myself, I really hope to accomplish major goals, aim for the skies, and run that extra mile in order to inspire anyone who I get the chance to meet!  Feel free to say hi or just ask a question any time whenever I’m around and I look forward to being your Director for Professional Development for  the year of 2017!</p>
-			</div>
-    	</div>
-    	<div class="row">
-        	<div class="col-sm-6">
-    		<h3>Webmaster | <small>TBD | <a href="../officers/#webmaster">Webmaster Chair</a></small></h3>
-    			<p>The Webmaster Committee is an essential part of the Sac SHPE chapter as so many individuals utilize it to obtain current information about events, scholarships and opportunities. The products of this committee is where I believe that we do have a profound impact. By providing easy and quick access to information for not only just our members but for officers, and the Sac State community; we provide one of the main channels for our SHPE chapter. 
-    			<br>
-				We will be working on the sacSHPE Website, the SQL database, and PHP in-between, and potentially mobile applications for iOS and Android. Any major is encouraged to join, we will provide resources to allow you to learn web and mobile development. And you get the added bonus of creating something hundreds to thousands of people will see and use constantly. </p>
-    			<a href="//goo.gl/forms/0j02WN6hdZW4PExl2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
-			</div>
-			<div class="col-sm-6">
-    		<h3>Historian | <small>TBD | <a href="../officers/#historian">Historian Chair</a></small></h3>
-    			<p>If you are looking for a fun and energetic committee to join, then join the Historian's Committee! In this committee you will learn useful organization and leadership skills by marketing the events hosted by SHPE and by capturing all the wonderful moments created in SHPE. You will learn how to efficiently advertise and market events through the use of social media, flyers, etc. This committee encourages you to step out of your comfort zone to form new bonds of friendship and networks. If you are interested, please feel free to contact me.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6">
-				<h3>Sports | <small>TBD | <a href="../officers/#membership">Director of Membership</a></small></small></h3>
-					<p>The Sports committee is about getting active. My plan for the semester is to create sport events such as soccer and basketball. We will also create workout sessions in order to keep staying active. You are welcome to bring your gym clothes because we might spend our extra time working out or if you just want to workout after the meeting.</p>
-			</div>
-			<div class="col-sm-6">
-				<h3>Community Service | <small>Via Email | <a href="../officers/#president">President</a></small></h3>
-					<p>In The Servant as Leader, Robert K. Greenleaf said:</p>
-					<p>“The servant-leader is servant first… It begins with the natural feeling that one wants to serve, to serve first. Then conscious choice brings one to aspire to lead."</p>
-					<p>"A servant-leader focuses primarily on the growth and well-being of people and the communities to which they belong. While traditional leadership generally involves the accumulation and exercise of power by one at the “top of the pyramid,” servant leadership is different. The servant-leader shares power, puts the needs of others first and helps people develop and perform as highly as possible."</p>
-					<p>We will try to schedule one Community Servant event every month. The community Servant Events include but not limited to feeding the homeless, can food drive, Toy Drive, and Clothing Drive. If you would like to become a Servant Leader, you can start by putting the needs of others first and help perform these acts of kindness and generosity within the community. </p>
-					<br>
-					<p>This Committee will have no per-schedule meeting dates, all information and planning will be via email or phone messages. Community service hours will be given for MEP and two skill set will be awarded (Community Service and Leadership). </p>
-					<br>
-					<a href="//goo.gl/forms/E5wxzxO5ZsINmGiY2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
-			</div>
-		</div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Outreach | <small>TBD | <a href="../officers/#outreach">Director of Outreach</a></small></h3>
+              <p>Welcome to Outreach! The goal of Outreach is to spread the knowledge of the STEM field to the youth of Sacramento. I oversee Thriving Youth Program and Noche de Ciencas. Within the Thriving Youth program, we hold the monthly STEM
+                Nights. During the STEM Night’s we do mini science projects with the after-school program there. Noche de Ciencas is similar to the STEM Nights but it is an event held in an elementary school and bigger than the STEM Nights. Both
+                events are focused to inform the Sacramento youth the STEM is not a scary field to be involved in. What my committee does is they help me plan these two events. We come up with the projects to Noche de Ciencas and help organize the
+                day. You are always welcome to pitch ideas and events pertaining to STEM that we can be involved in. I also will try to inform you on any community service event that is around Sac State involving STEM, so that you can get those
+                community service hours done as soon as possible. If you like getting involved in the community and helping the youth in spreading the cheer of STEM come join my Outreach Committee.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Professional Development | <small>TBD | <a href="../officers/#professionaldevelopment">Director of Professional Development</a></small></h3>
+              <p>Naturally as an engineering student people ask the question “do you have a life?” and say “all I do is see you guys study!”. Although this may be slightly true it is not wrong to say that we also do have outside lives separate from
+                our studies. When I’m not busy studying or working I enjoy activities such as running, paintballing, snowboarding, and even flying planes! I once had a dream of becoming a pilot; a soon to be reality. I once had a dream of completing
+                a 100 mile endurance run; something that I have accomplished and intend to accomplish again. I once had a dream that I would be able to complete college with an engineering degree; here I am as a first year college student and junior
+                mechanical engineering in the making. Although I may seem to do these things for myself, I really hope to accomplish major goals, aim for the skies, and run that extra mile in order to inspire anyone who I get the chance to meet! Feel
+                free to say hi or just ask a question any time whenever I’m around and I look forward to being your Director for Professional Development for the year of 2017!</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Webmaster | <small>TBD | <a href="../officers/#webmaster">Webmaster Chair</a></small></h3>
+              <p>The Webmaster Committee is an essential part of the Sac SHPE chapter as so many individuals utilize it to obtain current information about events, scholarships and opportunities. The products of this committee is where I believe that
+                we do have a profound impact. By providing easy and quick access to information for not only just our members but for officers, and the Sac State community; we provide one of the main channels for our SHPE chapter.
+                <br>
+                We will be working on the sacSHPE Website, the SQL database, and PHP in-between, and potentially mobile applications for iOS and Android. Any major is encouraged to join, we will provide resources to allow you to learn web and mobile
+                development. And you get the added bonus of creating something hundreds to thousands of people will see and use constantly. </p>
+              <a href="//goo.gl/forms/0j02WN6hdZW4PExl2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Historian | <small>TBD | <a href="../officers/#historian">Historian Chair</a></small></h3>
+              <p>If you are looking for a fun and energetic committee to join, then join the Historian's Committee! In this committee you will learn useful organization and leadership skills by marketing the events hosted by SHPE and by capturing all
+                the wonderful moments created in SHPE. You will learn how to efficiently advertise and market events through the use of social media, flyers, etc. This committee encourages you to step out of your comfort zone to form new bonds of
+                friendship and networks. If you are interested, please feel free to contact me.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Sports | <small>TBD | <a href="../officers/#membership">Director of Membership</a></small></small></h3>
+              <p>The Sports committee is about getting active. My plan for the semester is to create sport events such as soccer and basketball. We will also create workout sessions in order to keep staying active. You are welcome to bring your gym
+                clothes because we might spend our extra time working out or if you just want to workout after the meeting.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 comm-space">
+              <h3>Community Service | <small>Via Email | <a href="../officers/#president">President</a></small></h3>
+              <p>In The Servant as Leader, Robert K. Greenleaf said:</p>
+              <p>“The servant-leader is servant first… It begins with the natural feeling that one wants to serve, to serve first. Then conscious choice brings one to aspire to lead."</p>
+              <p>"A servant-leader focuses primarily on the growth and well-being of people and the communities to which they belong. While traditional leadership generally involves the accumulation and exercise of power by one at the “top of the
+                pyramid,” servant leadership is different. The servant-leader shares power, puts the needs of others first and helps people develop and perform as highly as possible."</p>
+              <p>We will try to schedule one Community Servant event every month. The community Servant Events include but not limited to feeding the homeless, can food drive, Toy Drive, and Clothing Drive. If you would like to become a Servant
+                Leader, you can start by putting the needs of others first and help perform these acts of kindness and generosity within the community. </p>
+              <br>
+              <p>This Committee will have no per-schedule meeting dates, all information and planning will be via email or phone messages. Community service hours will be given for MEP and two skill set will be awarded (Community Service and
+                Leadership). </p>
+              <br>
+              <a href="//goo.gl/forms/E5wxzxO5ZsINmGiY2" target="_blank" class="btn btn-primary btn-sm">Signups</a>
+            </div>
+          </div>
+        </div>
+        <hr class="d-sm-none">
+      </div>
+
+      <div class="col-sm-4">
+        <h2>About Us</h2>
+        <hr>
+        <h5>Mission</h5>
+        <p>SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development.</p>
+        <h5>Vision</h5>
+        <p>SHPE’s vision is a world where Hispanics are highly valued and influential as the leading innovators, scientists, mathematicians, and engineers.</p>
+        <hr>
+        <h2>Follow Us</h2>
+        <hr>
+        <br class="d-none d-sm-block" />
+        <div class="row">
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="//snapchat.com/add/sac.shpe" target="_blank">
+              <img class="mediaLogo" src="../img/footer/snap.png">
+            </a>
+            <p class="mediaLogo d-none d-sm-block ">sac.shpe</p>
+          </div>
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="//twitter.com/sac_shpe" target="_blank">
+              <img class="mediaLogo" src="../img/footer/twit.png">
+            </a>
+            <p class="mediaLogo d-none d-sm-block">sac_shpe</p>
+          </div>
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="//facebook.com/sacshpe/" target="_blank">
+              <img class="mediaLogo" src="../img/footer/face.png">
+            </a>
+            <p class="mediaLogo  d-none d-sm-block">sacshpe</p>
+          </div>
+
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="//instagram.com/shpesac/" target="_blank">
+              <img class="mediaLogo" src="../img/footer/739193.png">
+            </a>
+            <p class="mediaLogo  d-none d-sm-block">shpesac</p>
+          </div>
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="//linkedin.com/in/jesus-nunez-1a6414159/" target="_blank">
+              <img class="mediaLogo" src="../img/footer/link.png"></a>
+            <p class="mediaLogo  d-none d-sm-block">President</p>
+          </div>
+          <div class="col-md-4 col-sm-5 col-2">
+            <a href="mailto:contact@sacshpe.org">
+              <img class="mediaLogo" src="../img/footer/mail.png">
+            </a>
+            <p class="mediaLogo  d-none d-sm-block">Email</p>
+          </div>
+        </div>
+        <hr>
+
+        <div>
+          <h2>Calendar</h2>
+          <hr>
+          <!-- INSERT EMBED CALENDAR GOOGLE HERE -->
+          <div class="d-none d-lg-block responsive-calendar">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cTNrOHR2bmVvMGJ0dTlnNHE5dWEzZGtvMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%2330487E&amp;color=%23DD4477&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showDate=1&amp;showNav=0&amp;showTitle=0&amp;mode=MONTH&amp;showPrint=0"
+              style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+          </div>
+          <!-- Mobile Calendar -->
+          <div class="d-lg-none responsive-calendar">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cTNrOHR2bmVvMGJ0dTlnNHE5dWEzZGtvMmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%2330487E&amp;color=%23DD4477&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showDate=1&amp;showNav=0&amp;showTitle=0&amp;mode=AGENDA&amp;showPrint=0"
+              style="border-width:0" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-	<br />
-	<!-- Footer -->
-	<div id="footer-placeholder">
-	</div>
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-    </script>
-    <script >
-        $.get("../navigation/nav.html", function(data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
-	<script >
-        $.get("../navigation/mailFootNav.html", function(data) {
-            $("#footer-placeholder").replaceWith(data);
-        });
-    </script>
+  </div>
+
+  <br>
+  <div class="jumbotron text-center" style="margin-bottom:0; padding-bottom: 32px; padding-top: 32px;">
+    <p>SHPE | Sacramento State University, 2019 - 2020</p>
+  </div>
+
 </body>
 
 </html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sacSHPE | Calendar</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <!-- Calendar CSS -->
+    <link href="../css/calendar.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div id="nav-placeholder">
+    </div>
+    <br /><br /><br />
+    <div class="container">
+        <div class="row">
+            <h2>SHPE Calendar</h2>
+            <hr class="featurette-divider">
+        </div>
+        <div class="col-sm-12">
+            <!-- INSERT EMBED CALENDAR GOOGLE HERE -->
+            <div class="responsive-iframe-container big-container">
+            <iframe src="//calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=q3k8tvneo0btu9g4q9ua3dko2g%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <!-- Mobile Calendar -->
+            <div class="responsive-iframe-container small-container">
+            <iframe src="//calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=q3k8tvneo0btu9g4q9ua3dko2g%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script >
+        $.get("../navigation/nav.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script >
+        $.get("../navigation/mailFootNav.html", function(data) {
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+
+</html>

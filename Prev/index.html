@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>sacSHPE</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="./css/font.css" rel="stylesheet" type="text/css">
+
+  <!-- Carousel CSS -->
+  <link href="./css/full-slider.css" rel="stylesheet">
+
+  <!-- Static Text above Carousel -->
+  <style type="text/css">
+    .carousel-content {
+      position: absolute;
+      bottom: 5%;
+      right: 3%;
+      z-index: 20;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+      text-align: right;
+    }
+
+    .carousel-content-news {
+      position: absolute;
+      top: 10%;
+      left: 3%;
+      z-index: 20;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    }
+
+    .carousel-content-photo-credits {
+      position: absolute;
+      bottom: 1%;
+      left: 1%;
+      z-index: 20;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+
+    .image-resize{
+      max-width: 100%;
+      height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<br><br>
+  <!-- Navigation -->
+  <div id="nav-placeholder">
+  </div>
+
+  <!-- Full Page Image Background Carousel Header -->
+  <header id="myCarousel" class="carousel slide">
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <!-- Set the first background image using inline CSS below.
+
+        background-repeat: no-repeat; background-size: contain; background-position: center; -->
+        <div class="fill " style="background-image:url('./img/home/2019-2020/img1.jpeg');">
+          <div class="carousel-content-photo-credits">
+            <small>2019-2020 Board</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="fill" style="background-image:url('./img/home/2019-2020/img2.jpeg');">
+          <div class="carousel-content-photo-credits">
+            <small>@ The Corn Maze</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="fill" style="background-image:url('./img/home/2019-2020/img3.jpeg'); height: 800px;">
+          <div class="carousel-content-photo-credits">
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-content">
+        <h2><strong>SHPE @ Sac State </strong></h2>
+        <h4>Society of Hispanic Professional Engineers</h4>
+        <a href="//goo.gl/forms/5iywS9lZp6NFYHvr1" target="_blank" class="btn btn-warning btn-lg" role="button">Newsletter Signup</a>
+        <a href="../who" class="btn btn-primary btn-lg" role="button">What is SHPE?</a>
+        <a href="../become" class="btn btn-success btn-lg" role="button">Join SHPE</a>
+        <a href="../news" class="btn btn-danger btn-lg" role="button">Newsletters</a>
+        <a href="../slides" class="btn btn-info btn-lg" role="button">Slides</a>
+        <!--<a href="../elections" class="btn btn-primary btn-lg" role="button">Elections</a>	-->
+        <br>
+
+        <br><br>
+        <!--<h3>Upcoming Events</h3>-->
+      </div>
+    </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
+  </header>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Script to Activate the Carousel & change the scroll speed -->
+  <script>
+    $('.carousel').carousel({
+      interval: 8000
+    })
+  </script>
+  <script>
+    $.get("./navigation/nav.html", function(data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <script>
+    $.get("./navigation/mailFootNav.html", function(data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+</body>
+
+</html>
