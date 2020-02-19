@@ -291,7 +291,7 @@ hr {
   overflow: visible
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
   margin-top: 0;
   margin-bottom: .5rem
 }
@@ -542,7 +542,7 @@ template {
   display: none !important
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, .h7 h1, h2, h3, h4, h5, h6, h7{
   margin-bottom: .5rem;
   font-weight: 500;
   line-height: 1.2
@@ -570,6 +570,10 @@ template {
 
 .h6, h6 {
   font-size: 1rem
+}
+
+.h7, h7 {
+  font-size: .75rem
 }
 
 .lead {
