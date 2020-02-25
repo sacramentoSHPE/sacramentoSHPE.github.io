@@ -5,6 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+#more{
+  display: none;
+}
+
 .comm-space{
   padding-bottom: 30px;
 }

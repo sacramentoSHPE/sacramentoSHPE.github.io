@@ -90,7 +90,7 @@
         <h2>Recent News</h2>
 
         <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
-          <h4><b>Google and Resume Workshop</b></h4>
+          <h4><b>Career Fair Prep Series</b></h4>
           <p class="imgText">Thank you everyone for attending the Career Fair Prep Series! We had a blast talking to the Alumni and a big thanks to NSBE for collaborating with us for this event!</p>
           <h7><i>Posted Feb 24, 2020</i></h7>
         </div>
@@ -120,7 +120,6 @@
           <h7><i>Posted Jan 21, 2020</i></h7>
         </div>
 
-<!--
         <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
           <h4><b>SHPE Potluck</b></h4>
           <img class="image" src="./img/home/2019-2020/IMG_5621.JPG" alt="Potluck 2019">
@@ -128,33 +127,34 @@
           <h7><i>Posted Nov 22, 2019</i></h7>
         </div>
 
+        <span id="archive"></span>
+        <span id="more">
 
+          <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
+            <h4><b>Dixon Corn Maze</b></h4>
+            <img class="image" src="./img/home/2019-2020/img2.jpeg" alt="Maze 2019">
+            <p class="imgText"> We had a fantastic time at our Annual visit to the Dixon Corn Maze!</p>
+            <h7><i>Posted Nov 12, 2019</i></h7>
+          </div>
 
-        <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
-          <h4><b>Dixon Corn Maze</b></h4>
-          <img class="image" src="./img/home/2019-2020/img2.jpeg" alt="Maze 2019">
-          <p class="imgText"> We had a fantastic time at our Annual visit to the Dixon Corn Maze!</p>
-          <h7><i>Posted Nov 12, 2019</i></h7>
-        </div>
+          <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
+            <h4><b>SHPE Nationals</b></h4>
+            <img class="image" src="./img/home/2019-2020/IMG_9806.jpeg" alt="Nat 2019">
+            <p class="imgText"> SHPE National Convention lunch with SacState Alumni and Intel employee Juan Perez!</p>
+            <h7><i>Posted Nov 1, 2019</i></h7>
+          </div>
 
+          <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
+            <h4><b>Outreach Event</b></h4>
+            <img class="image" src="./img/home/2019-2020/img3.jpeg" alt="Outreach 2019">
+            <p class="imgText"> Thank you everyone for coming out to our Outreach event!</p>
+            <h7><i>Posted Oct 8, 2019</i></h7>
+          </div>
 
-        <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
-          <h4><b>SHPE Nationals</b></h4>
-          <img class="image" src="./img/home/2019-2020/IMG_9806.jpeg" alt="Nat 2019">
-          <p class="imgText"> SHPE National Convention lunch with SacState Alumni and Intel employee Juan Perez!</p>
-          <h7><i>Posted Nov 1, 2019</i></h7>
-        </div>
+        </span>
+        <button onclick="readMore()" id="myBtn">Read more</button>
+        <br>
 
-
-
-        <div class="imgContainer jumbotron" style="padding-bottom: 16px; padding-top: 16px;">
-          <h4><b>Outreach Event</b></h4>
-          <img class="image" src="./img/home/2019-2020/img3.jpeg" alt="Outreach 2019">
-          <p class="imgText"> Thank you everyone for coming out to our Outreach event!</p>
-          <h7><i>Posted Oct 8, 2019</i></h7>
-        </div>
-
-      -->
         <hr class="d-sm-none">
         <br class="d-none d-md-block">
       </div>
@@ -239,6 +239,7 @@
               style="border-width:0" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
+        <br>
       </div>
     </div>
   </div>
@@ -246,6 +247,24 @@
   <div class="jumbotron text-center" style="margin-bottom:0; padding-bottom: 32px; padding-top: 32px;">
     <p>SHPE | Sacramento State University, 2019 - 2020</p>
   </div>
+
+  <script>
+  function readMore() {
+    var archive = document.getElementById("archive");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (archive.style.display === "none") {
+      archive.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      archive.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
 
 </body>
 
