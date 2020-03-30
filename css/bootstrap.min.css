@@ -5,7 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+.btn-container{
+  width: 100%;
+  margin-bottom: 1rem;
+}
 .comm-space{
   padding-bottom: 30px;
 }
