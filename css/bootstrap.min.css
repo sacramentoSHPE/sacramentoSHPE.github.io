@@ -29,7 +29,7 @@
 
 @media (min-width:120px) {
   .image{
-    width: 100%;
+    width: 15%;
     height: 200px;
     border-radius: 8px;
     object-fit: cover;
