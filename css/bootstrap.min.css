@@ -41,6 +41,17 @@
   }
 }
 
+<style>
+.verticalhorizontal {
+    display: table-cell;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    vertical-align: middle;
+}
+</style>
+
+
 @media (min-width:320px) {
   .image{
     width: 100%;
