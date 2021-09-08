@@ -27,7 +27,21 @@
   padding-top: 10px;
 }
 
-@media (min-width:120px) {
+#newsletterArea > newsletter {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+#newsletter {
+  background: rgb(0, 0, 0);
+}
+#newsletter:active {
+  background: none;
+  background-image: url("/img/home/Other Images/Newsletter Qr Code.png");
+  background-size: cover;
+  background-position: center;
+}
+/* @media (min-width:120px) {
   .image{
     width: 30%;
     height: 200px;
@@ -39,7 +53,7 @@
     height: 15px;
     width: 15px;
   }
-}
+} */
 
 @media (min-width:120px) {
   .image{
