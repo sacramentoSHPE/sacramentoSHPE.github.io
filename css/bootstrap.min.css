@@ -27,7 +27,7 @@
   padding-top: 10px;
 }
 
-@newsletter (min-width:120px) {
+@media (min-width:120px) {
   .image{
     width: 100%;
     height: 200px;
