@@ -41,15 +41,12 @@
   }
 }
 
-<style>
-.verticalhorizontal {
-    display: table-cell;
-    height: 200px;
-    text-align: center;
-    width: 200px;
-    vertical-align: middle;
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-</style>
 
 
 @media (min-width:320px) {
