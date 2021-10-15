@@ -1113,6 +1113,96 @@ a {
 .cid-sLwak4RqIj .card-box {
   color: #e43f3f;
 }
+.cid-sLwZFUXjQg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-sLwZFUXjQg .line {
+  background-color: #e43f3f;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-sLwZFUXjQg .mbr-text {
+  color: #bed3f9;
+}
+.cid-sLwiupGmA9 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #bed3f9;
+}
+.cid-sLwiupGmA9 .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.cid-sLwiupGmA9 .timeline-element {
+  position: relative;
+}
+.cid-sLwiupGmA9 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sLwiupGmA9 .iconBackground {
+  position: absolute;
+  left: 33.33%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #e43f3f;
+  top: 30px;
+  margin-left: -9px;
+  padding: 0;
+}
+.cid-sLwiupGmA9 .separline:before {
+  top: 50px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #e43f3f;
+  left: 33.33%;
+  height: calc(100% + 30px);
+}
+@media (max-width: 767px) {
+  .cid-sLwiupGmA9 .iconBackground {
+    left: 15px !important;
+  }
+  .cid-sLwiupGmA9 .separline:before {
+    left: 15px !important;
+  }
+}
+.cid-sLwiupGmA9 .mbr-section-title,
+.cid-sLwiupGmA9 .mbr-section-subtitle {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .cid-sLwiupGmA9 .time-line-date-content {
+    margin-left: 1rem;
+  }
+  .cid-sLwiupGmA9 .time-line-date-content .mbr-timeline-date {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sLwiupGmA9 .time-line-date-content {
+    margin-right: 1rem;
+  }
+  .cid-sLwiupGmA9 .time-line-date-content .mbr-timeline-date {
+    text-align: right;
+  }
+}
+.cid-sLwiupGmA9 .timeline-text-content {
+  margin-left: 2rem;
+}
+.cid-sLwiupGmA9 .reverseTimeline {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.cid-sLwiupGmA9 .mbr-timeline-date {
+  text-align: left;
+}
 .cid-sLwakBBjR9 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1208,96 +1298,6 @@ a {
 }
 .cid-sLwOTuVIAX .row {
   justify-content: center;
-}
-.cid-sLwZFUXjQg {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #000000;
-}
-.cid-sLwZFUXjQg .line {
-  background-color: #e43f3f;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-sLwZFUXjQg .mbr-text {
-  color: #bed3f9;
-}
-.cid-sLwiupGmA9 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #bed3f9;
-}
-.cid-sLwiupGmA9 .timelines-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-}
-.cid-sLwiupGmA9 .timeline-element {
-  position: relative;
-}
-.cid-sLwiupGmA9 .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-sLwiupGmA9 .iconBackground {
-  position: absolute;
-  left: 33.33%;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 2px solid #e43f3f;
-  top: 30px;
-  margin-left: -9px;
-  padding: 0;
-}
-.cid-sLwiupGmA9 .separline:before {
-  top: 50px;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #e43f3f;
-  left: 33.33%;
-  height: calc(100% + 30px);
-}
-@media (max-width: 767px) {
-  .cid-sLwiupGmA9 .iconBackground {
-    left: 15px !important;
-  }
-  .cid-sLwiupGmA9 .separline:before {
-    left: 15px !important;
-  }
-}
-.cid-sLwiupGmA9 .mbr-section-title,
-.cid-sLwiupGmA9 .mbr-section-subtitle {
-  text-align: center;
-}
-@media (max-width: 767px) {
-  .cid-sLwiupGmA9 .time-line-date-content {
-    margin-left: 1rem;
-  }
-  .cid-sLwiupGmA9 .time-line-date-content .mbr-timeline-date {
-    text-align: center;
-  }
-}
-@media (min-width: 768px) {
-  .cid-sLwiupGmA9 .time-line-date-content {
-    margin-right: 1rem;
-  }
-  .cid-sLwiupGmA9 .time-line-date-content .mbr-timeline-date {
-    text-align: right;
-  }
-}
-.cid-sLwiupGmA9 .timeline-text-content {
-  margin-left: 2rem;
-}
-.cid-sLwiupGmA9 .reverseTimeline {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.cid-sLwiupGmA9 .mbr-timeline-date {
-  text-align: left;
 }
 .cid-sLx6da4cBT {
   padding-top: 0rem;
